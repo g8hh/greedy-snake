@@ -360,7 +360,7 @@
                 s = 340,
                 a = screenX + (innerWidth - i) / 2,
                 o = screenY + (innerHeight - s) / 2;
-            r.open("https://neave.com/share/?url=" + encodeURIComponent(e) + "&text=" + t, "snake-share", "resizable=yes,toolbar=no,scrollbars=yes,status=no,width=" + i + ",height=" + s + ",left=" + a + ",top=" + o);
+//            r.open("https://neave.com/share/?url=" + encodeURIComponent(e) + "&text=" + t, "snake-share", "resizable=yes,toolbar=no,scrollbars=yes,status=no,width=" + i + ",height=" + s + ",left=" + a + ",top=" + o);
             c("Share", "Social", n)
         }
     }
